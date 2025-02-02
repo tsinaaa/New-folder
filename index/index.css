@@ -70,7 +70,7 @@ section .box2 {
     flex: 1 1 300px;
     width: 30%;
     height: 300px;
-    margin: 100px 50vw 50px 150px;
+    margin: 100px 50vw 50px 200px;
 }
 
 h1 {
@@ -130,30 +130,32 @@ select {
 #section-one {
     width: 100%;
     height: 500px;
-    background-color: rgba(250, 235, 215, 0.667);
+    background-image: url("/img/image.jpg");
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
+    gap: 60px;
     align-items: center;
+    
 }
 
 #section-one .box1 {
     height: 350px;
-    width: 30%;
+    width: 25%;
     background-image: url("/img/car-fotor.jpg");
     background-size: cover;
     border-radius: 5px;
+    margin-left: 200px;
 }
 
 #section-one .box2 {
     height: 350px;
-    width: 30%;
+    width: 40%;
     
 }
 
 #section-one .box3 {
     height: 350px;
-    width: 10%;
-    background-color: aqua;
+    width: 5%;
 }
 
 .inline {
@@ -189,6 +191,65 @@ select {
     size: 5px;
 }
 
-.box3 {
-    margin:0
+#section-two {
+    width: 100%;
+    height: 600px;
+    background-image: url("/img/strip\ back.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
+
+.div1 {
+    width: 80%;
+    height: 100px;
+}
+
+.div2 {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner {
+    width: 30%;
+    height: 300px;
+    background-image: url("/img/image.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inside {
+    width: 80%;
+    padding-top: 10px;
+    gap: 5px;
+}
+
+.cleaning {
+    height: 150px;
+    background-image: url("/img/cleaning-fotor1.png");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.planting {
+    height: 150px;
+    background-image: url("/img/safe\ envi.jpg");
+    background-size: cover;
+    border-radius: 5px;
+} 
+
+.ocean {
+    height: 150px;
+    background-image: url("/img/oceancleaning-fotor.png");
+    background-size: cover;
+    border-radius: 5px;
+}
+
