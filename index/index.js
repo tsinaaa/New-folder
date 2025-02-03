@@ -1,4 +1,5 @@
-let serviceBtn = document.getElementById("service-btn")
+const serviceBtn = document.getElementById("service-btn")
+
 serviceBtn.addEventListener("click", function() {
     alert("button clicked")
 })
@@ -6,3 +7,6 @@ serviceBtn.addEventListener("click", function() {
 function display() {
     alert("button clicked")
 }
+
+
+console.log("what's up")

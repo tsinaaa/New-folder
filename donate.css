@@ -1,0 +1,41 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+} 
+
+ .blured {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/blured.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 70%;
+    background-image: url("/img/forest.jpg");
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 100px;
+    line-height: 50px;
+} 
+
+input {
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+button {
+    padding: 5px 8px;
+    background-color: rgba(60, 172, 12, 0.808);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: rgba(245, 245, 245, 0.724)
+}
